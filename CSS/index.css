@@ -1,0 +1,127 @@
+h3{
+	color: white;
+	margin-top: 140px;
+	text-align: center;
+	font-family: Impact;
+	letter-spacing: 40px;
+	font-size: 120px;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: black;
+	text
+}
+.eyes{
+	position: absolute;
+	top: 10%;
+	transform: translateY(-50%);
+	width: 100%;
+	text-align: center;
+}
+.eye{
+	width: 200px;
+	height: 100px;
+	background-color: #f1c40f;
+	display: inline-block;
+	margin: 40px;
+	border-radius: 50%;
+	position: relative;
+	overflow: hidden;
+}
+
+.ball{
+	width: 30px;
+	height: 90px;
+	background-color: #000;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 50%;
+	border:10px solid black;
+}
+.navigation{
+	position: absolute;
+	background-color: gray;
+	top: 300px;
+	width: 100%;
+	text-align: center;
+}
+.navigation a:link, a:visited{
+	background-color: gray;
+	color: white;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+.slide img{
+	width: 100%;
+}
+.slideshow{
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	padding-top: 5%;
+}
+.number{
+	margin-top: 8%;
+	color: #f2f2f2;
+ 	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+.dots{
+	text-align: center;
+}
+.dot{
+	height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.active{
+	background-color: #717171;
+}
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+.about-us{
+	margin-top: 20%;
+	margin-bottom: 20%;
+	color: white;
+	text-align: center;
+	background-color: gray;
+	height: 400px;
+	width: 100%;
+	font-family: Impact;
+	letter-spacing: 5px;
+	font-size: 40px;
+}
+.about-us p{
+	padding-top: 10%;
+}
+.footer{
+	padding-top: 20%;
+}
+.location{
+	text-align: right;
+	padding-right: 5%;
+}
