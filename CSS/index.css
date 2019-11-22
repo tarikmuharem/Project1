@@ -1,6 +1,6 @@
 h3{
 	color: white;
-	padding-top: 3%;
+	padding-top: 5%;
 	text-align: center;
 	font-family: Impact;
 	letter-spacing: 40px;
@@ -13,7 +13,7 @@ body{
 }
 .eyes{
 	position: absolute;
-	top: 15%;
+	top: 120px;
 	transform: translateY(-50%);
 	width: 100%;
 	text-align: center;
