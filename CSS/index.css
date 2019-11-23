@@ -214,6 +214,8 @@ input[type="submit"]:hover{
 	color: white;
 	margin: 0px;
 	text-align: left;
+	font-family: Impact;
+	font-size: 20px;
 }
 .footer img{
 	width: 15px;
