@@ -70,15 +70,15 @@ body{
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
+  .navigation a:not(:first-child) {display: none;}
+  .navigation a.icon {
     float: right;
     display: block;
   }
 }
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive .icon {
+  .navigation.responsive {position: relative;}
+  .navigation.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;

@@ -29,11 +29,11 @@ function showSlides() {
   setTimeout(showSlides, 5000);
 }
 
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
+function navigation() {
+  var x = document.getElementById("navigation");
+  if (x.className === "navigation") {
     x.className += " responsive";
   } else {
-    x.className = "topnav";
+    x.className = "navigation";
   }
 }
