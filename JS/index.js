@@ -28,12 +28,3 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000);
 }
-
-function navigation() {
-  var x = document.getElementById("topnavigation");
-  if (x.className === "navigation") {
-    x.className += " responsive";
-  } else {
-    x.className = "navigation";
-  }
-}
