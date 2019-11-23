@@ -152,6 +152,61 @@ body{
 	padding-top: 14%;
 	padding-bottom: 14%;
 }
+input.name{
+	width: 80%;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+}
+.surname, .e-mail{
+	margin-top: 0.5%;
+	width: 80%;
+	box-sizing: border-box;
+    border: 3px solid #ccc;
+    outline: none;
+    height: 40px;
+    border-radius: 5px;
+}
+.question{
+	margin-top: 0.5%;
+	width: 80%;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    outline: none;
+    height: 140px;
+    border-radius: 5px;
+}
+.question:focus{
+	border: 3px solid tomato;
+}
+input[type="text"]:focus{
+	border: 3px solid tomato;
+}
+input[type="submit"]{
+	width: 80%;
+	height: 40px;
+	background-color: #49bb17;
+	color: white;
+	border: 3px solid #338310;
+	border-radius: 5px;
+}
+input[type="submit"]:hover{
+	width: 80%;
+	height: 40px;
+	background-color: #338310;
+	color: white;
+	border: 3px solid #338310;
+	border-radius: 5px;
+}
+.contact-info{
+	padding-left: 5%;
+	float: left;
+	padding-top: 13%;
+	padding-bottom: 13%;
+	width: 400px;
+}
 .footer p{
 	background-color: #333;
 	color: white;
