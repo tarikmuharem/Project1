@@ -30,7 +30,7 @@ function showSlides() {
 }
 
 function navigation() {
-  var x = document.getElementById("navigation");
+  var x = document.getElementById("topnavigation");
   if (x.className === "navigation") {
     x.className += " responsive";
   } else {
