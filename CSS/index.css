@@ -157,4 +157,17 @@ body{
 .location{
 	text-align: right;
 	padding-right: 5%;
+	background-color: #333;
+}
+.location iframe{
+	height: 300px;
+	width: 500px;
+	padding-top: 14%;
+	padding-bottom: 14%;
+}
+.footer p{
+	background-color: #333;
+	color: white;
+	margin: 0px;
+	text-align: center;
 }
