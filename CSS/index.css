@@ -221,3 +221,11 @@ input[type="submit"]:hover{
 	width: 15px;
 	height: 15px;
 }
+#cjenovnik{
+	color: white;
+}
+.menu td{
+	color: white;
+	text-align: center;
+	background-color: white;
+}

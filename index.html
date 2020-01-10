@@ -30,10 +30,10 @@
 	<div class="navigation" id="topnavigation">
 		<a href="#about-us"><i class="fa fa-fw fa-home"></i> O nama</a>
 		<a href="#slideshow"><i class="fa fa-fw fa-photo"></i> Galerija</a>
-		<a href=""><i class="fa fa-fw fa-list"></i>  Cjenovnik</a>
+		<a href="PHP/menu.php"><i class="fa fa-fw fa-list"></i>  Cjenovnik</a>
 		<a href="#location"><i class="fa fa-fw fa-map"></i>  Naša lokacija</a>
 	</div>
-		<div class="about-us" id="about-us">
+	<div class="about-us" id="about-us">
 		<p>Sve što vam treba za dobar provod imate kod nas. Najbolja ekipa, najbolja muzika i najbolji provod. Dođite i uvjerite se sami.</p>
 	</div>
 	<div class="slideshow" id="slideshow">
@@ -73,11 +73,11 @@
 	</div>
 	<footer class="footer">
 		<div class="contact-info">
-			<form class="form">
+			<form class="form" action="PHP/form.php" method="post">
 				<input class="name" type="text" name="Name" placeholder="Ime"><br>
 				<input class="surname" type="text" name="Surname" placeholder="Prezime"><br>
 				<input class="e-mail" type="text" name="E-mail" placeholder="E-mail"><br>
-				<textarea class="question" rows="10" placeholder="Rezervacija..."></textarea><br>
+				<textarea class="question" rows="10" placeholder="Rezervacija..." name="Question"></textarea><br>
 				<input class="button" type="submit" name="submit" value="Pošalji">
 			</form>
 		</div>
